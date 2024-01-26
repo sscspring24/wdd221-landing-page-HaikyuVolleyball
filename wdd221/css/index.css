@@ -1,0 +1,133 @@
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: #ffe6e6;
+    background-image:url(../images/Cloud.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Tangerine, sans-serif;
+}
+
+#wrapper
+{
+    width: 90%;
+    background-color: #FFF7F8;
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 1200px;
+    max-width: 1500px;
+}
+
+header
+{
+    background-color: #FBCEB1;
+    height: 200px;
+}
+
+header a
+{
+    text-decoration: none;
+}
+
+header a:link
+{
+    color: #CB9650;
+}
+
+header a:visited
+{
+    color: #996843;
+}
+
+header a:hover
+{
+    color: #9B3C27;
+}
+
+nav
+{
+    float: left;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a
+{
+    border: 6px outset #FFC2B3;
+    display: block;
+    margin-bottom: 1em;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:link
+{
+    color: #C5A494;
+}
+
+nav a:visited
+{
+    color: #7B3F00;
+}
+
+nav a:hover
+{
+    Color: #DE8E65;
+    border: 6px inset #e1a95f;
+}
+
+nav ul
+{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+main
+{
+    display: block;
+    margin-left: 200px;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+}
+
+h1 
+{
+    padding-top: 50px;
+    padding-left: 1em;
+    font-style: italic;
+    text-align: center;
+}
+
+p
+{
+    color: #CC6666;
+    font-style: italic;
+    text-align: center;
+}
+
+.clear
+{
+    clear: both;
+}
+
+#hero
+{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+footer
+{
+    background-color: #FBCEB1;
+    font-size: .80em;
+    font-style: italic;
+    text-align: center;
+    padding: 1em;
+}
